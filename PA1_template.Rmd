@@ -2,7 +2,9 @@
 title: "Steps"
 author: "D. Mendez"
 date: "14/09/2020"
-output: html_document
+output:
+  pdf_document: default
+  html_document: default
 ---
 ## Loading and preprocessing the data
 Both dplyr and lubridate libraries are loaded. The data is read and stored in raw.data and the date data is turned into date format from character
